@@ -68,9 +68,10 @@ figure {
   background: #2c98f0; }
 
 #colorlib-page {
-  width: 100%;
-  overflow: hidden;
-  position: relative; }
+	width: 100%;
+	overflow: visible;
+	position: relative;
+}
 
 #colorlib-aside {
   padding-top: 3em;
@@ -120,8 +121,9 @@ figure {
       color: #000;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
-    display: block;
-    width: 100%; }
+	display: block;
+	width: 80%;
+}
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
